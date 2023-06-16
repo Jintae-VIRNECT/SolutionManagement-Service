@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: solution-Management-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/solution?serverTimezone=UTC
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
